@@ -2,10 +2,8 @@
 System.Console.WriteLine("Введите положительное число");
 int N = Convert.ToInt32(Console.ReadLine());
 int S = 1;
-int qw = 0;
-while (S < N+1 ) 
+while (S <= N) 
 {
-qw = S * S;
-System.Console.WriteLine(qw);
+System.Console.WriteLine(S + "  " + S*S);
 S++;
 }
