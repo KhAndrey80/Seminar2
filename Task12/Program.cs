@@ -1,5 +1,5 @@
 ﻿// Напишите программу, которая принимает на вход число и выдвет кол-во цифр в числе.
-using System.Reflection.Metadata.Ecma335;
+/*using System.Reflection.Metadata.Ecma335;
 
 int GetNumber() 
 {
@@ -26,4 +26,26 @@ int CountElems (int number)
 
 int number = GetNumber();
 int sum = CountElems (number);
-System.Console.WriteLine(sum);
+System.Console.WriteLine(sum);*/
+
+//ниже - альтернативный вариант через стринг
+
+int Print(string text) 
+{
+    System.Console.WriteLine(text);
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+static int DigitsNumber (int value)
+{
+    if (value < 0)
+{
+    value = -value;
+}
+string number = value.ToString();
+return number.Length;
+}
+
+int number = Print("Введите число");
+System.Console.WriteLine(DigitsNumber (number));
