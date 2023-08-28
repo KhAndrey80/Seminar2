@@ -1,5 +1,5 @@
 ﻿// Написать программу, которая выводит массив из 8 элементов, заполненный 0 и 1 в случйном порядке
-int [] array = new int[8];
+/*int [] array = new int[8];
 
 void FillArray(int[] array)
 {
@@ -23,4 +23,19 @@ void PrintArray(int[] array)
     }
 }
 FillArray(array);
-PrintArray(array);
+PrintArray(array);*/ 
+//Более короткий способ, объединяем (Но лучше не объединять)
+int [] array = new int[8];
+
+void FillArray(int[] array)
+{
+    int length = array.Length;
+    int index = 0;
+    while (index < length)
+    {
+        array[index] = new Random().Next(0, 2);
+        System.Console.Write(array[index]);
+        index++;
+    }
+}
+FillArray(array);

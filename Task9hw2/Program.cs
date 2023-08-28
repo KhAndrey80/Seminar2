@@ -4,6 +4,6 @@ int N = Convert.ToInt32(Console.ReadLine());
 int S = 1;
 while (S <= N) 
 {
-System.Console.WriteLine(S + "  " + S*S*S);
+System.Console.WriteLine(S*S*S);
 S++;
 }
