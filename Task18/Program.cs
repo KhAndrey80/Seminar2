@@ -33,7 +33,7 @@ foreach (int number in array)
 
 System.Console.WriteLine($"Сумма положительных -  {sumPozitive} и сумма отрицательных - {sumNegative}");*/
 
-//Задача 32: Напишите программу замена элементов массива: положительные элементы замените на соответствующие отрицательные, и наоборот.
+/*Задача 32: Напишите программу замена элементов массива: положительные элементы замените на соответствующие отрицательные, и наоборот.
 //[-4, -8, 8, 2] -> [4, 8, -8, -2]
 
 void EditArray (int [] array)
@@ -67,20 +67,41 @@ void PrintArray (int[] array)
 int [] array = new int [10];
 FillArray(array);
 EditArray(array);
-PrintArray(array);
-
-
-
-
-
-
-
-
-
+PrintArray(array);*/
 
 
 
 /*Задача 33: Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве.
 4; массив [6, 7, 19, 345, 3] -> нет     -3; массив [6, 7, 19, 345, 3] -> да*/
 
+void FillArray (int[] array)
+{
+    Random random = new Random();
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = random.Next(-5, 5);
+    }
+    System.Console.Write(string.Join(" ", array));
+}
 
+bool SearchArray (int[] array, int number)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (number == array[i])
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+
+int[] array = new int [15];
+
+FillArray(array);
+System.Console.WriteLine();
+
+bool search = SearchArray(array, 3);
+
+System.Console.WriteLine(search);
