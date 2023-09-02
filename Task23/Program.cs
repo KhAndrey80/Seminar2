@@ -59,4 +59,5 @@ double min = array[0];
 System.Console.WriteLine(max);
 System.Console.WriteLine(min);
 
-System.Console.WriteLine($"Разница между максимальным и минимальным числом равно: {max - min}");
+double d = Math.Round(max-min, 2);
+System.Console.WriteLine($"Разница между максимальным и минимальным числом равно: {d}");
