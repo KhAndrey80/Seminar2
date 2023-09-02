@@ -1,0 +1,15 @@
+D:\Andrey Education\Seminar2\Task1\Task25\bin\Debug\net6.0\Task25.exe
+D:\Andrey Education\Seminar2\Task1\Task25\bin\Debug\net6.0\Task25.deps.json
+D:\Andrey Education\Seminar2\Task1\Task25\bin\Debug\net6.0\Task25.runtimeconfig.json
+D:\Andrey Education\Seminar2\Task1\Task25\bin\Debug\net6.0\Task25.dll
+D:\Andrey Education\Seminar2\Task1\Task25\bin\Debug\net6.0\Task25.pdb
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.csproj.AssemblyReference.cache
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.GeneratedMSBuildEditorConfig.editorconfig
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.AssemblyInfoInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.AssemblyInfo.cs
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.csproj.CoreCompileInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.dll
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\refint\Task25.dll
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.pdb
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\Task25.genruntimeconfig.cache
+D:\Andrey Education\Seminar2\Task1\Task25\obj\Debug\net6.0\ref\Task25.dll
