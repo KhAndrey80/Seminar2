@@ -1,0 +1,15 @@
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.csproj.AssemblyReference.cache
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.GeneratedMSBuildEditorConfig.editorconfig
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.AssemblyInfoInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.AssemblyInfo.cs
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.csproj.CoreCompileInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task20\bin\Debug\net6.0\Task20.exe
+D:\Andrey Education\Seminar2\Task1\Task20\bin\Debug\net6.0\Task20.deps.json
+D:\Andrey Education\Seminar2\Task1\Task20\bin\Debug\net6.0\Task20.runtimeconfig.json
+D:\Andrey Education\Seminar2\Task1\Task20\bin\Debug\net6.0\Task20.dll
+D:\Andrey Education\Seminar2\Task1\Task20\bin\Debug\net6.0\Task20.pdb
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.dll
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\refint\Task20.dll
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.pdb
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\Task20.genruntimeconfig.cache
+D:\Andrey Education\Seminar2\Task1\Task20\obj\Debug\net6.0\ref\Task20.dll
