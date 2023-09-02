@@ -22,7 +22,20 @@ array[i] = array[array.Length - 1 - i];
 array[array.Length - 1 - i] = tmp;
 }
 }
+
+
+int[] ReverseNew (int[] array)
+{
+    int[] newArray = new int[array.Length];
+     for (int i = 0; i < array.Length; i++)
+{
+    newArray[array.Length -1-i] = array[i];
+}
+return newArray;
+}
+
 FillArray(array);
 System.Console.WriteLine(String.Join(" ", array));
+System.Console.WriteLine(String.Join(" ", ReverseNew(array)));
 Reverse(array);
 System.Console.WriteLine(String.Join(" ", array));
