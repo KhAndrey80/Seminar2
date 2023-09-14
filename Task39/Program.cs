@@ -3,77 +3,92 @@
 // пересечении которых расположен наименьший элемент
 // массива.
 
-int[,] array = new int[3, 3];
+Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
+int m = InputNumbers("Введите m: ");
+int n = InputNumbers("Введите n: ");
+int range = InputNumbers("Введите диапазон: от 1 до ");
 
-void FillArray(int[,] array) //метод заполнения массива
-{
-for (int i = 0; i < array.GetLength(0); i++)
-{
-for (int j = 0; j < array.GetLength(1); j++)
-{
-array[i, j] = new Random().Next(11, 99);
-Console.Write(array[i, j] + " ");
-}
-Console.WriteLine();
-}
-}
+int[,] array = new int[m, n];
+CreateArray(array);
+WriteArray(array);
 
-void PrintArray(int[,] array) // метод печати массива
-{
-for (int i = 0; i < array.GetLength(0); i++)
-{
-for (int j = 0; j < array.GetLength(1); j++)
-{
-Console.Write(array[i, j] + " ");
-}
-Console.WriteLine();
-}
-}
+int[,] positionSmallElement = new int[1, 2];
+positionSmallElement = FindPositionSmallElement(array, positionSmallElement);
+Console.Write($"Позиция элемента: \n");
+WriteArray(positionSmallElement);
 
-void CropArray(int[,] array) // метод удаления
-{
-int min_index_i = 0;
-int min_index_j = 0;
-int min_value = 100000;// потом доработать. тут для примера
+int[,] arrayWithoutLines = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
+DeleteLines(array, positionSmallElement, arrayWithoutLines);
+Console.WriteLine($"\nПолучившийся массив:");
+WriteArray(arrayWithoutLines);
 
-for (int i = 0; i < array.GetLength(0); i++)
+
+int InputNumbers(string input) //ввод номеров и диапазона рандомных чисел
 {
-for (int j = 0; j < array.GetLength(1); j++)
-{
-if (array[i, j] < min_value)
-{
-min_index_i = i;
-min_index_j = j;
-min_value = array[i, j];
-}
-}
+  Console.Write(input);
+  int output = Convert.ToInt32(Console.ReadLine());
+  return output;
 }
 
-int rows = array.GetLength(0) - 1;
-int cols = array.GetLength(1) - 1;
-
-int[,] result = new int[rows, cols]; // Создаем новый массив для хранения результата
-
-for (int i = 0; i < rows; i++)
+void CreateArray(int[,] array) // формируем массив случайных чисел
 {
-for (int j = 0; j < cols; j++)
-{
-if (i < min_index_i && j < min_index_j) // Если текущий индекс меньше удаляемого, то копируем элемент без изменений
-{
-result[i, j] = array[i, j];
-Console.Write(result[i, j] + " ");
-}
-// Если текущий индекс больше или равен удаляемому, то копируем элемент со сдвигом на одну строку вверх
-else
-{
-result[i, j] = array[i + 1, j + 1];
-Console.Write(result[i, j] + " ");
-}
-}
-Console.WriteLine();
-}
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      array[i, j] = new Random().Next(range);
+    }
+  }
 }
 
-FillArray(array);
-Console.WriteLine("Новый массив ниже");
-CropArray(array);
+void WriteArray(int[,] array) // печать сгенерированного массива, для проверки
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      Console.Write(array[i, j] + " ");
+    }
+    Console.WriteLine();
+  }
+}
+
+int[,] FindPositionSmallElement(int[,] array, int[,] position) //ищем минимальный элемент и его индекс
+{
+  int temp = array[0, 0];
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      if (array[i, j] <= temp)
+      {
+        position[0, 0] = i;
+        position[0, 1] = j;
+        temp = array[i, j];
+      }
+    }
+  }
+  Console.WriteLine($"\nMинимальный элемент: {temp}");
+  return position;
+}
+
+void DeleteLines(int[,] array, int[,] positionSmallElement, int[,] arrayWithoutLines)
+{
+  int k = 0, l = 0;
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      if (positionSmallElement[0, 0] != i && positionSmallElement[0, 1] != j)
+      {
+        arrayWithoutLines[k, l] = array[i, j];
+        l++;
+      }
+    }
+    l = 0;
+    if (positionSmallElement[0, 0] != i)
+    {
+      k++;
+    }
+  }
+}
