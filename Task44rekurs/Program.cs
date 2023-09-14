@@ -14,17 +14,14 @@
 
 // 2. Написать программу, которая принимает число и возвращает сумму его цифр.
 
-int sum = 0;
 
-void SumNumber(int number)
+int SumNumber(int number)
 {
     if (number == 0)
 {
-    return;
+    return 0;
 }
-sum = sum + number %10;
-SumNumber(number /10);
+return number %10 + SumNumber(number /10);
 }
 
-SumNumber(453);
-System.Console.WriteLine(sum);
+System.Console.WriteLine(SumNumber(453));
