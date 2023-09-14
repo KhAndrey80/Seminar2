@@ -1,0 +1,15 @@
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.csproj.AssemblyReference.cache
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.AssemblyInfoInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.AssemblyInfo.cs
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.csproj.CoreCompileInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\bin\Debug\net6.0\Task44rekurs.exe
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\bin\Debug\net6.0\Task44rekurs.deps.json
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\bin\Debug\net6.0\Task44rekurs.runtimeconfig.json
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\bin\Debug\net6.0\Task44rekurs.dll
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\bin\Debug\net6.0\Task44rekurs.pdb
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.dll
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\refint\Task44rekurs.dll
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.pdb
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\Task44rekurs.genruntimeconfig.cache
+D:\Andrey Education\Seminar2\Task1\Task44rekurs\obj\Debug\net6.0\ref\Task44rekurs.dll
