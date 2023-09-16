@@ -1,0 +1,15 @@
+D:\Andrey Education\Seminar2\Task1\Task46hw\bin\Debug\net6.0\Task46hw.exe
+D:\Andrey Education\Seminar2\Task1\Task46hw\bin\Debug\net6.0\Task46hw.deps.json
+D:\Andrey Education\Seminar2\Task1\Task46hw\bin\Debug\net6.0\Task46hw.runtimeconfig.json
+D:\Andrey Education\Seminar2\Task1\Task46hw\bin\Debug\net6.0\Task46hw.dll
+D:\Andrey Education\Seminar2\Task1\Task46hw\bin\Debug\net6.0\Task46hw.pdb
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.csproj.AssemblyReference.cache
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.GeneratedMSBuildEditorConfig.editorconfig
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.AssemblyInfoInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.AssemblyInfo.cs
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.csproj.CoreCompileInputs.cache
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.dll
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\refint\Task46hw.dll
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.pdb
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\Task46hw.genruntimeconfig.cache
+D:\Andrey Education\Seminar2\Task1\Task46hw\obj\Debug\net6.0\ref\Task46hw.dll
